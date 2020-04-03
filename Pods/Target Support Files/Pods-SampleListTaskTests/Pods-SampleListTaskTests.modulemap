@@ -1,0 +1,6 @@
+framework module Pods_SampleListTaskTests {
+  umbrella header "Pods-SampleListTaskTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

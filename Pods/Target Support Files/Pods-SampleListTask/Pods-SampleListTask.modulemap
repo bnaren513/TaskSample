@@ -1,0 +1,6 @@
+framework module Pods_SampleListTask {
+  umbrella header "Pods-SampleListTask-umbrella.h"
+
+  export *
+  module * { export * }
+}
