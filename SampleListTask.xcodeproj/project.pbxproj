@@ -16,7 +16,7 @@
 		9A235F8A2435FF7000CC7A95 /* SampleListTaskTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A235F892435FF7000CC7A95 /* SampleListTaskTests.swift */; };
 		9A235F952435FF7100CC7A95 /* SampleListTaskUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A235F942435FF7100CC7A95 /* SampleListTaskUITests.swift */; };
 		9A235FA52436010C00CC7A95 /* ServiceManger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A235FA42436010C00CC7A95 /* ServiceManger.swift */; };
-		9A235FA8243601DF00CC7A95 /* BSConstatnts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A235FA7243601DF00CC7A95 /* BSConstatnts.swift */; };
+		9A235FA8243601DF00CC7A95 /* Constatnts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A235FA7243601DF00CC7A95 /* Constatnts.swift */; };
 		9A47618F24373D9500600B52 /* CustomTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A47618E24373D9500600B52 /* CustomTableViewCell.swift */; };
 		9A852B27244A20D7000AFEED /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A852B26244A20D7000AFEED /* ViewModel.swift */; };
 		A641F8C4CECE76ECD65ACDE2 /* Pods_SampleListTask_SampleListTaskUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1C97A4DC3AB5293AFE7D7B64 /* Pods_SampleListTask_SampleListTaskUITests.framework */; };
@@ -63,7 +63,7 @@
 		9A235F942435FF7100CC7A95 /* SampleListTaskUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleListTaskUITests.swift; sourceTree = "<group>"; };
 		9A235F962435FF7100CC7A95 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9A235FA42436010C00CC7A95 /* ServiceManger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceManger.swift; sourceTree = "<group>"; };
-		9A235FA7243601DF00CC7A95 /* BSConstatnts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BSConstatnts.swift; sourceTree = "<group>"; };
+		9A235FA7243601DF00CC7A95 /* Constatnts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constatnts.swift; sourceTree = "<group>"; };
 		9A47618E24373D9500600B52 /* CustomTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTableViewCell.swift; sourceTree = "<group>"; };
 		9A852B26244A20D7000AFEED /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
 		9C4CA9BB10AF189363B07227 /* Pods-SampleListTask-SampleListTaskUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SampleListTask-SampleListTaskUITests.release.xcconfig"; path = "Target Support Files/Pods-SampleListTask-SampleListTaskUITests/Pods-SampleListTask-SampleListTaskUITests.release.xcconfig"; sourceTree = "<group>"; };
@@ -168,7 +168,7 @@
 		9A235FA6243601B100CC7A95 /* Constants */ = {
 			isa = PBXGroup;
 			children = (
-				9A235FA7243601DF00CC7A95 /* BSConstatnts.swift */,
+				9A235FA7243601DF00CC7A95 /* Constatnts.swift */,
 			);
 			path = Constants;
 			sourceTree = "<group>";
@@ -461,7 +461,7 @@
 			files = (
 				9A852B27244A20D7000AFEED /* ViewModel.swift in Sources */,
 				9A47618F24373D9500600B52 /* CustomTableViewCell.swift in Sources */,
-				9A235FA8243601DF00CC7A95 /* BSConstatnts.swift in Sources */,
+				9A235FA8243601DF00CC7A95 /* Constatnts.swift in Sources */,
 				9A235FA52436010C00CC7A95 /* ServiceManger.swift in Sources */,
 				9A235F772435FF6E00CC7A95 /* ViewController.swift in Sources */,
 				9A235F732435FF6E00CC7A95 /* AppDelegate.swift in Sources */,
