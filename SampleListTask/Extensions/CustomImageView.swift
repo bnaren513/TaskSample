@@ -2,8 +2,8 @@
 //  CustomImageView.swift
 //  SampleFlickerImages
 //
-//  Created by Pradeep Sharma on 01/02/19.
-//  Copyright © 2019 Pradeep Sharma. All rights reserved.
+//  Created by Narendra Biswa on 03/04/20.
+//  Copyright © 2020 Narendra Biswa. All rights reserved.
 //
 
 import UIKit
