@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -15,10 +15,10 @@
 		9A235F7F2435FF7000CC7A95 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9A235F7D2435FF7000CC7A95 /* LaunchScreen.storyboard */; };
 		9A235F8A2435FF7000CC7A95 /* SampleListTaskTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A235F892435FF7000CC7A95 /* SampleListTaskTests.swift */; };
 		9A235F952435FF7100CC7A95 /* SampleListTaskUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A235F942435FF7100CC7A95 /* SampleListTaskUITests.swift */; };
-		9A235FA52436010C00CC7A95 /* BSServiceManger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A235FA42436010C00CC7A95 /* BSServiceManger.swift */; };
+		9A235FA52436010C00CC7A95 /* ServiceManger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A235FA42436010C00CC7A95 /* ServiceManger.swift */; };
 		9A235FA8243601DF00CC7A95 /* BSConstatnts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A235FA7243601DF00CC7A95 /* BSConstatnts.swift */; };
 		9A47618F24373D9500600B52 /* CustomTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A47618E24373D9500600B52 /* CustomTableViewCell.swift */; };
-		9A4761922437413700600B52 /* CustomImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A4761912437413700600B52 /* CustomImageView.swift */; };
+		9A852B27244A20D7000AFEED /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A852B26244A20D7000AFEED /* ViewModel.swift */; };
 		A641F8C4CECE76ECD65ACDE2 /* Pods_SampleListTask_SampleListTaskUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1C97A4DC3AB5293AFE7D7B64 /* Pods_SampleListTask_SampleListTaskUITests.framework */; };
 		BBB473C99B7613307E5FA91D /* Pods_SampleListTask.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 10F47FFF98D79D2E08BE4FC3 /* Pods_SampleListTask.framework */; };
 		BF167322DBE3BEBF9A8ACED7 /* Pods_SampleListTaskTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B8404EE92063EA9A1C22B27 /* Pods_SampleListTaskTests.framework */; };
@@ -62,10 +62,10 @@
 		9A235F902435FF7100CC7A95 /* SampleListTaskUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SampleListTaskUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9A235F942435FF7100CC7A95 /* SampleListTaskUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleListTaskUITests.swift; sourceTree = "<group>"; };
 		9A235F962435FF7100CC7A95 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		9A235FA42436010C00CC7A95 /* BSServiceManger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BSServiceManger.swift; sourceTree = "<group>"; };
+		9A235FA42436010C00CC7A95 /* ServiceManger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceManger.swift; sourceTree = "<group>"; };
 		9A235FA7243601DF00CC7A95 /* BSConstatnts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BSConstatnts.swift; sourceTree = "<group>"; };
 		9A47618E24373D9500600B52 /* CustomTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTableViewCell.swift; sourceTree = "<group>"; };
-		9A4761912437413700600B52 /* CustomImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomImageView.swift; sourceTree = "<group>"; };
+		9A852B26244A20D7000AFEED /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
 		9C4CA9BB10AF189363B07227 /* Pods-SampleListTask-SampleListTaskUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SampleListTask-SampleListTaskUITests.release.xcconfig"; path = "Target Support Files/Pods-SampleListTask-SampleListTaskUITests/Pods-SampleListTask-SampleListTaskUITests.release.xcconfig"; sourceTree = "<group>"; };
 		D845E7E0A65A0FC5E97ABCA5 /* Pods-SampleListTask.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SampleListTask.release.xcconfig"; path = "Target Support Files/Pods-SampleListTask/Pods-SampleListTask.release.xcconfig"; sourceTree = "<group>"; };
 		FBD4599A30B1BC3B5F3E54A3 /* Pods-SampleListTask.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SampleListTask.debug.xcconfig"; path = "Target Support Files/Pods-SampleListTask/Pods-SampleListTask.debug.xcconfig"; sourceTree = "<group>"; };
@@ -124,13 +124,13 @@
 		9A235F712435FF6E00CC7A95 /* SampleListTask */ = {
 			isa = PBXGroup;
 			children = (
-				9A4761902437412000600B52 /* Extensions */,
+				9A852B20244A1D4D000AFEED /* Viewcontrollers */,
+				9A852B1F244A1D41000AFEED /* ViewModels */,
 				9A47618D24373D7700600B52 /* Cells */,
 				9A235FA6243601B100CC7A95 /* Constants */,
 				9A235FA3243600C600CC7A95 /* ServiceManager */,
 				9A235F722435FF6E00CC7A95 /* AppDelegate.swift */,
 				9A235F742435FF6E00CC7A95 /* SceneDelegate.swift */,
-				9A235F762435FF6E00CC7A95 /* ViewController.swift */,
 				9A235F782435FF6E00CC7A95 /* Main.storyboard */,
 				9A235F7B2435FF7000CC7A95 /* Assets.xcassets */,
 				9A235F7D2435FF7000CC7A95 /* LaunchScreen.storyboard */,
@@ -160,7 +160,7 @@
 		9A235FA3243600C600CC7A95 /* ServiceManager */ = {
 			isa = PBXGroup;
 			children = (
-				9A235FA42436010C00CC7A95 /* BSServiceManger.swift */,
+				9A235FA42436010C00CC7A95 /* ServiceManger.swift */,
 			);
 			path = ServiceManager;
 			sourceTree = "<group>";
@@ -181,12 +181,20 @@
 			path = Cells;
 			sourceTree = "<group>";
 		};
-		9A4761902437412000600B52 /* Extensions */ = {
+		9A852B1F244A1D41000AFEED /* ViewModels */ = {
 			isa = PBXGroup;
 			children = (
-				9A4761912437413700600B52 /* CustomImageView.swift */,
+				9A852B26244A20D7000AFEED /* ViewModel.swift */,
 			);
-			path = Extensions;
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		9A852B20244A1D4D000AFEED /* Viewcontrollers */ = {
+			isa = PBXGroup;
+			children = (
+				9A235F762435FF6E00CC7A95 /* ViewController.swift */,
+			);
+			path = Viewcontrollers;
 			sourceTree = "<group>";
 		};
 		CBC0CD7B568CE437131EBDC5 /* Frameworks */ = {
@@ -209,7 +217,6 @@
 				009041ACB77D318FD3267A0A /* Pods-SampleListTaskTests.debug.xcconfig */,
 				5EA01DDBDE84264A324407A4 /* Pods-SampleListTaskTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -452,10 +459,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9A852B27244A20D7000AFEED /* ViewModel.swift in Sources */,
 				9A47618F24373D9500600B52 /* CustomTableViewCell.swift in Sources */,
 				9A235FA8243601DF00CC7A95 /* BSConstatnts.swift in Sources */,
-				9A235FA52436010C00CC7A95 /* BSServiceManger.swift in Sources */,
-				9A4761922437413700600B52 /* CustomImageView.swift in Sources */,
+				9A235FA52436010C00CC7A95 /* ServiceManger.swift in Sources */,
 				9A235F772435FF6E00CC7A95 /* ViewController.swift in Sources */,
 				9A235F732435FF6E00CC7A95 /* AppDelegate.swift in Sources */,
 				9A235F752435FF6E00CC7A95 /* SceneDelegate.swift in Sources */,

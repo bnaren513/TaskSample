@@ -19,10 +19,11 @@
     public typealias ProgressBlock = (_ progress: Float) -> Void
     public typealias DataSuccessCallback = (_ json: Data) -> Void
 
-    class BSServiceManger :NSObject
+    class ServiceManger :NSObject
     {
-        static let sharedInstance : BSServiceManger = {
-            let instance = BSServiceManger()
+        static let sharedInstance :
+            ServiceManger = {
+            let instance = ServiceManger()
             return instance
         }()
         
@@ -30,11 +31,10 @@
             super.init()
         }
         
-        func requestWithParameters(paramaters params: Any, andMethod path: String?, onSuccess: @escaping SuccessCallback, onError: @escaping ErrorCallback) {
+        func requestWithParameters(paramaters params: Any, andMethod path: String, onSuccess: @escaping SuccessCallback, onError: @escaping ErrorCallback) {
         
         
-      // let urlStr = "https://dl.dropboxusercontent.com/s/2iodh4vg0eortkl/facts.json"
-            guard let url = URL(string: Constants.Base.BASE_URL) else {return}
+            guard let url = URL(string: path) else {return}
                 
                 var request = URLRequest(url: url)
                 request.httpMethod = "GET"

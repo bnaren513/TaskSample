@@ -10,7 +10,7 @@ import UIKit
 
 class CustomTableViewCell: UITableViewCell {
 
-    @IBOutlet weak var rowImageView: CustomImageView!
+    @IBOutlet weak var rowImageView: UIImageView!
     @IBOutlet weak var rowTitleLabel: UILabel!
     @IBOutlet weak var rowDescriptionLabel: UILabel!
 
